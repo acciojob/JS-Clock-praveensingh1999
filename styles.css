@@ -1,1 +1,12 @@
 /* Your CSS Code here. */
+.min-hand {
+  width: 6px;
+  height: 80px;
+  background: red;      /* example */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: bottom;
+  transform: rotate(150deg);   /* Example rotation */
+  transition: all 0.05s ease-in-out;
+}
